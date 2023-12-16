@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   } 
+   
+   nav{
+     background-color: black;
+     align-items: center;
+     width: 100%;
+     height: 7vh;
+     display: flex;
+     justify-content: space-around;
+     font-size: large;
+   }
+   .main{
+    line-height: 10px;
+    letter-spacing: 1.5px;
+    color: aliceblue;
+    text-transform: capitalize;
+    right:80px;
+    position: relative;
+   }
+   .t{
+    color: white;
+    padding: 0px 20px;
+    margin: 10px;
+   }
+   .fa-square-facebook,.fa-linkedin,.fa-square-instagram,.fa-square-youtube{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.m,.p{
+    border: transparent;
+    text-transform: capitalize;
+    background: transparent;
+    color: rgb(192, 177, 177);
+    padding: 5px;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+    float: right;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+   
+}
+ul li a{
+    display: block;
+    padding: 20px 5px;
+    color: rgb(9, 9, 10);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.drop li{
+    display: block;
+}
+ul li ul.drop{
+    width:150%;
+    background: #ccd4e6;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    
+}
+ul li a:hover{
+    background-color: rgb(118, 214, 243);
+ }
+ul li:hover ul.drop{
+    display: block;
+    
+}
+.img{
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.apt{
+    background-color: white;
+    box-shadow: inset;
+    width: 40%;
+    height: 45%;
+    align-items: center;
+    left: 45px;
+    position: relative;
+    padding: 30px 10px;
+    margin: 10px;
+    box-shadow: 21px 22px  23px 22px rgb(207, 207, 207);;
+   
+}
+.r{
+    border-radius: 100px;
+    left: 200px;
+    position: relative;
+   
+    
+}
+h1{
+    left: 50px; 
+    position: relative;
+    text-transform: capitalize;
+}
+p{
+    left: 30px; 
+    position: relative;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    font-family: 'poppins',sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.r img{
+    border-radius: 50px;
+}
+.k{
+    font-size: 55%;
+}     
+      
